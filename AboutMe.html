@@ -1,0 +1,90 @@
+<!-- Declares that this document is written in HTML5 -->
+<!DOCTYPE html>
+
+<!-- Opens the HTML page and sets the language to English -->
+<html lang="en">
+
+<head>
+    <!-- Sets character encoding to UTF-8 so special characters display properly -->
+    <meta charset="UTF-8">
+
+    <!-- Ensures the page scales correctly on all devices (responsive design) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Links to the external CSS stylesheet for page styling -->
+    <link href="AboutMe.css" rel="stylesheet" type="text/css">
+    <link href="mobile.css" media="screen and (max-width: 600px)">
+    <link href="laptop.css" media="screen and (mind-width:601px) and (max-width: 992px)">
+    <link href="tablet.css" media="screen and (min-width: 993px) and (max-width:1200px)">
+
+    <!-- Sets the title displayed in the browser tab -->
+    <title>Aidan's Networking & IT Portfolio!</title>
+</head>
+
+<!-- The visible content of the webpage begins inside the body -->
+<body>
+
+    <!-- Wrapper div that contains all the main page content for layout control -->
+    <div id="wrapper">
+
+        <!-- Header section containing the site title and navigation menu -->
+        <header>
+
+            <!-- Main title or heading of the webpage -->
+            <h1>Welcome to my portfolio website!</h1>
+
+            <!-- Navigation menu with links to other pages -->
+            <nav>
+                <h4>
+                    <!-- Link to the homepage -->
+                    <a href="Assignment1.html">Home</a>
+                    <!-- Link to the About Me page (currently mislabeled as Contact) -->
+                    <a href="AboutMe.html">Contact</a>
+                    <!-- Link to the Contacts page (currently mislabeled as Projects) -->
+                    <a href="Contacts.html">Projects</a>
+                    <!-- Link to the Projects page (currently mislabeled as About Me) -->
+                    <a href="Projects.html">About Me</a>
+                </h4>
+            </nav>
+        </header>
+
+        <!-- Main section of the page containing the "About Me" information -->
+        <article>
+
+            <!-- Sub-heading for this section -->
+            <h3>About me and who I am!</h3>
+
+            <!-- Paragraph describing personal and academic background -->
+            <p>So, as stated on my home page, my name is Aidan Waddell, and I am a current second-year Networking & IT Student here at Ontario Tech University! I'm currently attending as a mature student, and prior to attending the University I spent five years in the workforce primarily working as a private security professional along with five years of experience as a primary reservist with the Canadian Armed Forces! Currently, I serve at the Chief Operations officer for the Networking & IT Student Association, also known as Netsoc for short. It's with this student association that I've made a handful of peers and have gained a tremendous amount of practical experience with actual Cybersecurity and IT related topics, and hope to continue to grow with them for the rest of my time here at Ontario Tech University!</p>
+
+            <!-- Figure element used to group media elements like images or videos with optional captions -->
+            <figure>
+                <!-- Embedded video with playback controls -->
+                <video controls src="1005.mp4"></video>
+
+                <!-- Image element showing a photo of Aidan -->
+                <img src="Aidan-Waddell.jpg" alt="example" class="image">
+            </figure>
+        </article>
+
+        <!-- Footer section located at the bottom of the page -->
+        <footer>
+
+            <!-- Small heading for footer content -->
+            <h5>Page footer content goes here</h5>
+
+            <!-- Navigation or contact information inside the footer -->
+            <nav>
+                <!-- Contact email link -->
+                <p>Contact me at 
+                   <a href="mailto:aidan.waddell@ontariotechu.net">aidan.waddell@ontariotechu.net</a>
+                </p>
+                <p>© By Aidan Waddell</p>
+            </nav>
+        </footer>
+
+    </div>
+    <!-- End of wrapper -->
+
+</body>
+</html>

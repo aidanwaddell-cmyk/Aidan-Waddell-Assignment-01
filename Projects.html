@@ -1,0 +1,104 @@
+<!-- Declares that this document is written in HTML5 -->
+<!DOCTYPE html>
+
+<!-- Opens the HTML page and sets the language to English -->
+<html lang="en">
+
+<head>
+    <!-- Sets character encoding to UTF-8 so all symbols and letters display correctly -->
+    <meta charset="UTF-8">
+
+    <!-- Makes the page responsive for different screen sizes (e.g., phones, tablets, desktops) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Links to an external CSS stylesheet (projects.css) for styling -->
+    <link href="projects.css" rel="stylesheet" type="text/css">
+    <link href="mobile.css" media="screen and (max-width: 600px)">
+    <link href="laptop.css" media="screen and (mind-width:601px) and (max-width: 992px)">
+    <link href="tablet.css" media="screen and (min-width: 993px) and (max-width:1200px)">
+
+    <!-- Sets the title of the webpage shown in the browser tab -->
+    <title>Aidan's Networking & IT Portfolio!</title>
+</head>
+
+<!-- The body contains all visible content of the webpage -->
+<body>
+
+    <!-- Wrapper div used to hold and organize all page elements together -->
+    <div id="wrapper">
+
+        <!-- Header section of the page, usually containing titles and navigation -->
+        <header>
+
+            <!-- Main heading for the webpage -->
+            <h1>Welcome to my portfolio website!</h1>
+
+            <!-- Navigation section that contains links to other pages -->
+            <nav>
+                <h4>
+                    <!-- Link to the homepage -->
+                    <a href="Assignment1.html">Home</a>
+                    <!-- Link to the contact page -->
+                    <a href="Contact.html">Contact</a>
+                    <!-- Link to the projects page -->
+                    <a href="Projects.html">Projects</a>
+                    <!-- Link to the About Me page -->
+                    <a href="AboutMe.html">About Me</a>
+                </h4>
+            </nav>
+        </header>
+
+        <!-- Main article content for this specific page -->
+        <article>
+
+            <!-- Sub-heading for the article -->
+            <h3>My projects!</h3>
+
+            <!-- Paragraph describing the context of the projects -->
+            <p>Here at Ontario Tech University, I've had the wonderful opportunity to create a variety of projects both for my classes and outside of the school. A few of the examples I have below are the creation of some personal projects of mine, both from school and from extracurricular activities outside of my general classwork!</p>
+
+            <!-- Figure element used to group related images and captions -->
+            <figure>
+
+                <!-- First project image -->
+                <img src="Network-Topology-Project.png" class="image">
+                <!-- Caption describing the first image -->
+                <figcaption>This is a topology of the physical networking challenge I helped create at the Fall 2025 Entry-Style CTF</figcaption>
+
+                <!-- Second project image -->
+                <img src="Networking-II-Final-Topology.png" class="image">
+                <!-- Caption describing the second image -->
+                <figcaption>This is a topology of the physical networking challenge I helped create at the Fall 2025 Entry-Style CTF</figcaption>
+
+                <!-- Third project image -->
+                <img src="Keylogger-project.png" class="image">
+                <!-- Caption describing the third image -->
+                <figcaption>This is an example of the Keylogger project that I played a part in creating during my Object Oriented Programming Class!</figcaption>
+
+                <!-- Fourth project image -->
+                <img src="With-Netsoc.png" class="image">
+                <!-- Caption describing the fourth image -->
+                <figcaption>This is a picture of myself and the Netsoc team and how I helped in the development of TacOps!</figcaption>
+            </figure>
+        </article>
+
+        <!-- Footer section at the bottom of the page -->
+        <footer>
+            <!-- Small heading for footer content -->
+            <h5>Page footer content goes here</h5>
+
+            <!-- Footer navigation or contact info -->
+            <nav>
+                <!-- Contact email link -->
+                <p>Contact me at 
+                   <a href="mailto:aidan.waddell@ontariotechu.net">aidan.waddell@ontariotechu.net</a>
+                </p>
+                <p>© By Aidan Waddell</p>
+            </nav>
+        </footer>
+
+    </div>
+    <!-- End of wrapper division -->
+
+</body>
+</html>

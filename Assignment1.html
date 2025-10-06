@@ -1,0 +1,64 @@
+<!--All of the comments will be going from top down, this means that the comments on top of the code are explaining the code that is below it. Let's begin!-->
+
+<!--This is stating the doctype that we will be using for our webpage, in this case, it will be HTML-->
+<!DOCTYPE html>
+<!--This line of code sets the language of HTML and the page content to be used as English-->
+<html lang="en">
+<!--This is the head element which contains all of the necessary metadata within our code-->
+<head>
+<!--This line of code tells us to use UTF-8 character encoding for our page-->
+    <meta charset="UTF-8">
+<!--This line of code gives us the viewport, the device width, and the initial scaling of our page-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--A Css sheet called "Assignment1.css" is being attached to our page to edit it, with a stylesheet, along with using text-->
+    <link href ="Assignment1.css", rel="stylesheet" type="text/css">
+    <link href="mobile.css" media="screen and (max-width: 600px)">
+    <link href="laptop.css" media="screen and (min-width:601px) and (max-width: 992px)">
+    <link href="tablet.css" media="screen and (min-width: 993px) and (max-width:1200px)">
+<!--This gives us the actual title of the tab of our page-->
+    <title>Aidan's Networking & IT Portfolio</title>
+<!--This closes the head element of our html page-->
+</head>
+<!--This is the start of the body element, the actual content of our html page-->
+<body>
+<!--This creates the unique div id, of wrapper, for our HTML page which contains the rest of our page-->
+<div id="wrapper">
+<!--We're creating the semantic tag of "header", which acts as an automatic default header for our page-->
+<header>
+<!--Here we have the first, top level heading of our website, explaining what the webpage is about!-->
+ <h1>Welcome to my portfolio website!</h1>
+<!--We're creating a navigation semantic tag to help the user navigate throughout the website-->
+ <nav>
+<!--We're creating the fourth most important header, h4-->
+    <h4>
+<!--All of the below pieces of code link you to another page within the website-->
+    <a href="Assignment1.html">Home</a>
+    <a href="Contact.html">Contact</a>
+    <a href="Projects.html">Projects</a>
+    <a href="AboutMe.html">About Me</a>
+<!--End of h4 element-->
+    </h4>
+<!--End of the navigation element-->
+ </nav>
+<!--End of the header element-->
+</header>
+<!--This commences the article element, which holds all of the necessary paragraph details-->
+<article>
+<!--This contains the h3 element which is a text title welcoming people to my website!-->
+    <h3>Welcome to my website!</h3>
+<!--The below paragraphs explain who I am and what my website is about-->
+    <p>Hi! My name is Aidan Waddell and I am a second-year Networking & IT Security student based at Ontario Tech University!</p>
+    <p>This webpage will describe who I am, what I do, along with my goals and aspirations both here at Ontario Tech University and outside of the University as well! I hope that you enjoy my website!</p>
+<!--End of the article element-->
+</article>
+<!--Beginning of the footer element-->
+<footer><h5>Page footer content goes here</h5>
+<!--The below navigation element navigates you to my personal email to contact me at!-->
+<nav>
+        <p>Contact me at <a href="mailto:aidan.waddell@ontariotechu.net>aidan.waddell@ontariotechu.net">aidan.waddell@ontariotechu.net</a></p>
+        <p>© By Aidan Waddell!</p>
+</nav>
+</footer>
+</div>
+</body>
+</html>

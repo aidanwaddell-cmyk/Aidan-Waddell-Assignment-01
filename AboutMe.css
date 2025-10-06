@@ -1,0 +1,52 @@
+body {background-color: #4A5DE8;
+
+}
+
+
+
+
+
+#wrapper {
+    background: linear-gradient(to right,  #4A5DE8, #4AC0E8, #4A5DE8);
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+}
+
+header, footer{
+    background-color: #4AC0E8; 
+    color: #3877EB; 
+    padding-top:5px; 
+    padding-bottom:5px;
+    text-align: center;
+    }
+
+
+article { text-align: center;
+}
+
+h3 {text-align: center;
+}
+
+
+
+mark {
+    background-color: aqua;
+}
+
+.image {
+    width: 400px;
+    height: 305px;
+}
+
+.wider-image {
+    width: 500px;
+    height: 400px;
+}
+
+video {
+    width: 400px;
+    height: 400px;
+
+}
+

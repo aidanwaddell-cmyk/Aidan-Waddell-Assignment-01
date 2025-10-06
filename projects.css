@@ -1,0 +1,39 @@
+/*We're changing the body background color*/
+
+body {background-color: #4A8EE8;
+
+}
+
+/*We're applying the linear gradient to the wrapper element of the webpage*/
+
+#wrapper {
+    background: linear-gradient(to right,  #4A5DE8, #4AC0E8, #4A5DE8);
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+}
+
+/*We're applying the padding and the colors along with aligning the text to the header and footers*/
+header, footer{
+    background-color: #4AC0E8; 
+    color: #4A8EE8; 
+    padding-top:5px; 
+    padding-bottom:5px;
+    text-align: center;
+    }
+
+
+/*Here we're aligning the text within the article*/
+article { text-align: center;
+}
+
+/*Here we're aligning the text of h3*/
+h3 {text-align: center;
+}
+
+/*Changing the class of image*/
+.image {
+    width: 400px;
+    height: 305px;
+    justify-content: center;
+}

@@ -1,0 +1,37 @@
+/*This gives us the general background color of our selector for the body element*/
+body {background-color: #4A5DE8;
+
+}
+
+
+/*This gives the correct margins, the background color, and the height for the div wrapper element*/
+#wrapper {
+    background: linear-gradient(45deg,#4A5DE8, #4AC0E8, #4A5DE8);
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+}
+
+/*This selectoe edits header and footer elements, such as the background-color, the general color, the padding, and alignment of the text*/
+header, footer{
+    background-color: #4AC0E8; 
+    color: #3877EB; 
+    padding-top:5px; 
+    padding-bottom:5px;
+    text-align: center;
+    }
+
+
+/*This selector properly aligns the text within the article element*/
+article { text-align: center;
+}
+
+/*This selector properly aligns the text of the h3 element*/
+h3 {text-align: center;
+}
+
+/*This selector changes the label elements, making the text inline and the font bold*/
+p label {
+    display: inline;
+    font-weight: bold;
+}

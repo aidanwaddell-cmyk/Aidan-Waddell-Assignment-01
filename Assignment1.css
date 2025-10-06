@@ -1,0 +1,48 @@
+/*The below code creates a selector for the body element which makes the background colour a light purple*/
+
+body {background-color: #4A5DE8;
+}
+
+/*The code below is a selector with the # for the unique div id of the wrapper element, colouring it accordingly with the linear-gradient*/
+/*It automatically sets the left and right margins of my wrapper to properly center it*/
+#wrapper {
+    background: linear-gradient(to right, #4A5DE8, #4AC0E8, #4A5DE8);
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+}
+
+/*The below selector encapsulates both the header and the footer element, giving it the necessary back-ground color and color.*/
+/*It also gives the necessary padding on the bottom and top of the header and footer elements, along with aligning the text*/
+
+header, footer{
+    background-color: #4AC0E8; 
+    color: #3877EB; 
+    padding-top:5px; 
+    padding-bottom:5px;
+    text-align: center;
+    }
+
+/*The below selector aligns the text and centers it for the article element*/
+article { text-align: center;
+}
+
+/*The below selector aligns the text for the h3 element*/
+h3 {text-align: center;
+}
+
+
+/*The below selectors specify the necessary viewports for my page*/
+
+@media (max-width: 600px) { body {
+    background-color: #4A5DE8
+}}
+
+@media (min-width:601px) and (max-width:992px) { body {
+    background-color:  #4A5DE8
+}}
+
+@media (min-width:993px) and (max-width:1200px) {body {
+    background-color: #4A5DE8
+}}
+
