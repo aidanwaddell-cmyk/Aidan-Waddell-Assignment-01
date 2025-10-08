@@ -32,19 +32,13 @@ h3 {text-align: center;
 
 
 
-mark {
-    background-color: aqua;
-}
 
 .image {
     width: 400px;
     height: 305px;
 }
 
-.wider-image {
-    width: 500px;
-    height: 400px;
-}
+
 
 video {
     width: 400px;
